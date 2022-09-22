@@ -2,6 +2,7 @@
   import pacmanLogo from '../assets/logo.svg'
   export let toggleTheme
   export let currentTheme
+
   console.log(currentTheme)
 
 </script>
@@ -84,22 +85,23 @@
   }
 
   .darkmode_icon {
-    width: 35%;
-    height: 35%;
+    width: 30%;
+    height: 30%;
+    cursor: pointer;
   }
 
   .user {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 5.5em;
+    width: 6em;
     height: 100%;
-    border-left: 2px solid #888eb06d;
+    border-left: 1px solid #888eb06d;
   }
 
   .avatar-container {
     position: relative;
-    width: 50%;
+    width: 40%;
     overflow: hidden;
     border-radius: 50%;
   }
