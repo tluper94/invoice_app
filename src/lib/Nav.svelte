@@ -30,6 +30,7 @@
 
 <style>
 
+  
   .nav {
     display: flex;
     flex-direction: row;
@@ -39,7 +40,7 @@
     position: sticky;
     top: 0px;
   }
-
+  
   .nav-icon {
     display: flex;
     position: relative;
@@ -51,7 +52,7 @@
     border-bottom-right-radius: 30px;
     background-color: #7C5DFA;
   }
-
+  
   .icon-inner {
     width: 100%;
     height: 50%;
@@ -60,12 +61,12 @@
     border-top-left-radius: 25px;
     border-bottom-right-radius: inherit;
   }
-
+  
   .pacman {
     position: absolute;
     width: 40%;
   }
-
+  
   .nav-buttons {
     display: flex;
     justify-content: center;
@@ -74,7 +75,7 @@
     margin-left: auto;
     height: 100%;
   }
-
+  
   .darkmode {
     display: flex;
     align-items: center;
@@ -83,13 +84,13 @@
     height: 100%;
     width: 5em;
   }
-
+  
   .darkmode_icon {
     width: 30%;
     height: 30%;
     cursor: pointer;
   }
-
+  
   .user {
     display: flex;
     justify-content: center;
@@ -98,21 +99,21 @@
     height: 100%;
     border-left: 1px solid #888eb06d;
   }
-
+  
   .avatar-container {
     position: relative;
     width: 40%;
     overflow: hidden;
     border-radius: 50%;
   }
-
+  
   .avatar-container::before {
     content: "";
     display: block;
     padding-top: 100%;
-
+    
   }
-
+  
   .avatar {
     position: absolute;
     top: 0;
@@ -123,4 +124,36 @@
     height: 100%;
   }
 
+  @media (min-width: 768px) {
+    .nav {
+      height: var(--height);
+      width: 5.5em;
+      flex-direction: column;
+      border-top-right-radius: 30px;
+      border-bottom-right-radius: 30px;
+      position: fixed;
+    }
+
+    .nav-buttons {
+      flex-direction: column;
+      width: 100%;
+      height: 10em;
+
+      margin-left: 0px;
+      margin-top: auto;
+    }
+
+    .nav-icon {
+      width: 100%;
+      height: 5.5em;
+    }
+
+    .user {
+      border-left: none;
+      width: 100%;
+      height: 10em;
+      border-top: 1px solid #888eb06d;
+    }
+  }
+  
 </style>
