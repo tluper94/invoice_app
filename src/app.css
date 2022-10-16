@@ -47,42 +47,42 @@ h1 {
   font-weight: bold;
   font-size: 32px;
   line-height: 36px;
-  letter-spacing: -1;
+  letter-spacing: -1px;
 }
 
 h2 {
   font-weight: bold;
   font-size: 20px;
   line-height: 22px;
-  letter-spacing: -0.63;
+  letter-spacing: -0.63px;
 }
 
 h3 {
   font-weight: bold;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: -0.8;
+  letter-spacing: -0.8px;
 }
 
 .f3 {
   font-weight: bold;
   font-size: 12px;
   line-height: 15px;
-  letter-spacing: -0.25;
+  letter-spacing: -0.25px;
 }
 
 .p1 {
   font-weight: 500;
   font-size: 14px;
   line-height: 15px;
-  letter-spacing: -.25;
+  letter-spacing: -.25px;
 }
 
 .p2 {
   font-weight: 500;
   font-size: 13px;
   line-height: 18px;
-  letter-spacing: -.23;
+  letter-spacing: -.23px;
 }
 
 body {
@@ -103,7 +103,7 @@ body {
   color: var(--white) ;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   .content {
     padding-left: 6em;
   }

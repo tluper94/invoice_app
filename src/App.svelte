@@ -69,7 +69,4 @@ Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metu
 </main>
 
 <style>
-  .section {
-    height: 100vh;
-  }
 </style>

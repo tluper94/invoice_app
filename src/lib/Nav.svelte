@@ -124,7 +124,7 @@
     height: 100%;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 1024px) {
     .nav {
       height: var(--height);
       width: 5.5em;
